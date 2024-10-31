@@ -2,6 +2,7 @@
 ## Requirements
 - git
 - stow
+- xsel
 
 ## Clone this repo
 ```
