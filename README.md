@@ -24,3 +24,8 @@ cd ~/dotfiles/
 ```
 
 You can now delete the repository
+
+
+
+### References
+`https://thevaluable.dev/zsh-install-configure-mouseless/`
