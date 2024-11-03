@@ -89,7 +89,6 @@ cursor_mode() {
 cursor_mode
 
 ## text objects for quotes and brackets (like da and ci vim keys)
-
 autoload -Uz select-bracketed select-quoted
 zle -N select-quoted
 zle -N select-bracketed
@@ -103,3 +102,15 @@ for km in viopp visual; do
   done
 done
 
+
+## Surrounding
+## cs (change surrounding), ds (delete surrounding), ys (add surrounding)
+## to mimic the famous Tim Pope’s surround plugin
+autoload -Uz surround
+zle -N delete-surround surround
+zle -N add-surround surround
+zle -N change-surround surround
+bindkey -M vicmd cs change-surround
+bindkey -M vicmd ds delete-surround
+bindkey -M vicmd ys add-surround
+bindkey -M visual S add-surround
