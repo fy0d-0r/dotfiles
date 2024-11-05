@@ -45,8 +45,9 @@ alias cd='cd_func'
 # Syntax Highlighting
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-# grc
 
+alias ping='grc ping'
+alias ip='grc ip'
 
 
 # Enable vi mode
