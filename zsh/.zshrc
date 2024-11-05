@@ -114,3 +114,7 @@ bindkey -M vicmd cs change-surround
 bindkey -M vicmd ds delete-surround
 bindkey -M vicmd ys add-surround
 bindkey -M visual S add-surround
+
+# Bind Ctrl + O to clear the screen and bring the prompt to the top
+bindkey '^O' clear-screen
+
