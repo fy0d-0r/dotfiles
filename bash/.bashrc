@@ -49,6 +49,7 @@ alias grep='grep --color=auto'
 alias ping='grc ping'
 alias ip='grc ip'
 
+alias neofetch='neofetch --ascii_colors 7'
 
 # Enable vi mode
 set -o vi
