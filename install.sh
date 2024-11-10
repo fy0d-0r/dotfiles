@@ -6,3 +6,5 @@ stow -t ~ zsh
 stow -t ~ vim
 stow -t ~ bash
 stow -t ~ nvim
+stow -t ~ cursors
+stow -t ~ Xfce-themes
